@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "everything-easy-app"
+  },
+  "targets": {
+    "everything-easy-app": {
+      "hosting": {
+        "everything-easy-landing": ["everything-easy-landing"]
+      }
+    }
+  }
+}
