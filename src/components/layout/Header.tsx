@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Globe } from 'lucide-react';
 import { Button } from '../ui';
@@ -8,16 +8,7 @@ import easyLogo from '../../assets/images/easy-logo.svg';
 
 const Header: React.FC = () => {
   const { language, setLanguage, t } = useLanguage();
-  const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   const navLinks = [
     { href: '#compass', label: t.nav.compass },
