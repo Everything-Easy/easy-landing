@@ -48,4 +48,12 @@ export interface TranslationStrings {
     terms: string;
     copyright: string;
   };
+  privacyPolicy: {
+    title: string;
+    lastUpdated: string;
+    sections: {
+      title: string;
+      content: string;
+    }[];
+  };
 }

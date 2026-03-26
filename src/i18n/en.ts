@@ -114,4 +114,50 @@ export const en: TranslationStrings = {
     terms: 'Terms',
     copyright: '© 2025 Easy. All rights reserved.',
   },
+  privacyPolicy: {
+    title: 'Privacy Policy',
+    lastUpdated: 'Last updated: March 2026',
+    sections: [
+      {
+        title: '1. Data Controller',
+        content: 'Everything Easy S.A.S. (hereinafter "Easy" or "we"), domiciled in the Oriental Republic of Uruguay, is the controller of the personal data collected through the everythingeasy.app platform and its associated products (Easy Compass, Easy Agenda). For inquiries related to the processing of your data, you can contact us at: privacidad@everythingeasy.app.',
+      },
+      {
+        title: '2. Data We Collect',
+        content: 'We collect data you provide when registering and using our services, including: first and last name, email address, phone number, business information (name, industry, address), billing and payment data (securely processed by third parties), and platform usage information (activity history, preferences, activity logs).',
+      },
+      {
+        title: '3. Purpose of Processing',
+        content: 'We use your data to: provide and improve our services; manage your account and platform access; process payments and issue receipts; send operational and support communications; notify you about updates, new features, and relevant offers (with your consent); comply with legal and regulatory obligations.',
+      },
+      {
+        title: '4. Legal Basis',
+        content: 'The processing of your data is based on your informed consent, given when accepting these terms during the registration process, in accordance with Law No. 18.331 on the Protection of Personal Data and Habeas Data Action of the Oriental Republic of Uruguay.',
+      },
+      {
+        title: '5. Data Subject Rights',
+        content: 'In accordance with Law No. 18.331, you have the right to: access your personal data in our possession; request rectification if it is inaccurate or incomplete; request deletion when it is no longer necessary or you withdraw your consent; object to processing under certain circumstances; request data portability in a structured format. To exercise any of these rights, write to us at privacidad@everythingeasy.app. We will respond within 5 business days.',
+      },
+      {
+        title: '6. International Data Transfers',
+        content: 'Some of our service providers (cloud infrastructure, payment processing, communication tools) may be located outside Uruguay. In such cases, we ensure that these transfers are made to countries or organizations with adequate levels of data protection, as established by Uruguayan regulations and URCDP criteria.',
+      },
+      {
+        title: '7. Data Security',
+        content: 'We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction. This includes encryption in transit and at rest, role-based access control, and periodic security reviews.',
+      },
+      {
+        title: '8. Data Retention',
+        content: 'We retain your personal data for as long as you maintain an active account on our platform or as necessary for the purposes described in this policy. Once you request account deletion, we will delete your data within a maximum of 30 business days, unless there is a legal obligation requiring its retention.',
+      },
+      {
+        title: '9. Supervisory Authority',
+        content: 'The Unidad Reguladora y de Control de Datos Personales (URCDP) is the competent state body for personal data protection in Uruguay. If you believe that the processing of your data violates applicable regulations, you may file a complaint with the URCDP through their website: urcdp.gub.uy.',
+      },
+      {
+        title: '10. Changes to This Policy',
+        content: 'We may update this Privacy Policy periodically. We will notify you of any significant changes by email or through a prominent notice on the platform. We recommend reviewing this policy regularly.',
+      },
+    ],
+  },
 };

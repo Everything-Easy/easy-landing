@@ -3,20 +3,18 @@ import Container from './Container';
 import { useLanguage } from '../../contexts/LanguageContext';
 import easyLogoWhite from '../../assets/images/easy-logo-white.svg';
 
-const Footer: React.FC = () => {
+interface FooterProps {
+  onOpenPrivacy: () => void;
+}
+
+const Footer: React.FC<FooterProps> = ({ onOpenPrivacy }) => {
   const { t } = useLanguage();
 
-  const footerLinks = {
-    quickLinks: [
-      { label: t.nav.compass, href: '#compass' },
-      { label: t.nav.agenda, href: '#agenda' },
-      { label: t.nav.contact, href: '#contact' },
-    ],
-    legal: [
-      { label: t.footer.privacy, href: '#' },
-      { label: t.footer.terms, href: '#' },
-    ],
-  };
+  const quickLinks = [
+    { label: t.nav.compass, href: '#compass' },
+    { label: t.nav.agenda, href: '#agenda' },
+    { label: t.nav.contact, href: '#contact' },
+  ];
 
   return (
     <footer className="relative z-10 text-white pt-0 pb-16">
@@ -34,7 +32,7 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-semibold mb-4">{t.footer.quickLinks}</h4>
             <ul className="space-y-2">
-              {footerLinks.quickLinks.map((link) => (
+              {quickLinks.map((link) => (
                 <li key={link.href}>
                   <a
                     href={link.href}
@@ -50,16 +48,19 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-semibold mb-4">{t.footer.legal}</h4>
             <ul className="space-y-2">
-              {footerLinks.legal.map((link) => (
-                <li key={link.label}>
-                  <a
-                    href={link.href}
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
+              <li>
+                <button
+                  onClick={onOpenPrivacy}
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  {t.footer.privacy}
+                </button>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                  {t.footer.terms}
+                </a>
+              </li>
             </ul>
           </div>
         </div>

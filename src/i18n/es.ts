@@ -114,4 +114,50 @@ export const es: TranslationStrings = {
     terms: 'Términos',
     copyright: '© 2025 Easy. Todos los derechos reservados.',
   },
+  privacyPolicy: {
+    title: 'Política de Privacidad',
+    lastUpdated: 'Última actualización: marzo de 2026',
+    sections: [
+      {
+        title: '1. Responsable del tratamiento',
+        content: 'Everything Easy S.A.S. (en adelante, "Easy" o "nosotros"), con domicilio en la República Oriental del Uruguay, es el responsable del tratamiento de los datos personales recabados a través de la plataforma everythingeasy.app y sus productos asociados (Easy Compass, Easy Agenda). Para consultas relacionadas con el tratamiento de tus datos, podés contactarnos a: privacidad@everythingeasy.app.',
+      },
+      {
+        title: '2. Datos que recopilamos',
+        content: 'Recopilamos los datos que nos proporcionás al registrarte y utilizar nuestros servicios, entre ellos: nombre y apellido, dirección de correo electrónico, número de teléfono, información de tu negocio (nombre, rubro, dirección), datos de facturación y pago (procesados de forma segura por terceros), e información de uso de la plataforma (historial de acciones, preferencias, registros de actividad).',
+      },
+      {
+        title: '3. Finalidad del tratamiento',
+        content: 'Utilizamos tus datos para: brindar y mejorar nuestros servicios; gestionar tu cuenta y acceso a la plataforma; procesar pagos y emitir comprobantes; enviarte comunicaciones operativas y de soporte; notificarte sobre actualizaciones, nuevas funcionalidades y ofertas relevantes (con tu consentimiento); cumplir con obligaciones legales y regulatorias.',
+      },
+      {
+        title: '4. Base legal',
+        content: 'El tratamiento de tus datos se basa en tu consentimiento informado, otorgado al aceptar estos términos durante el proceso de registro, en conformidad con la Ley N° 18.331 de Protección de Datos Personales y Acción de Habeas Data de la República Oriental del Uruguay.',
+      },
+      {
+        title: '5. Derechos del titular',
+        content: 'De acuerdo con la Ley N° 18.331, tenés derecho a: acceder a tus datos personales en nuestra posesión; solicitar su rectificación si son inexactos o incompletos; solicitar su supresión cuando ya no sean necesarios o retires tu consentimiento; oponerte al tratamiento en determinadas circunstancias; solicitar la portabilidad de tus datos en formato estructurado. Para ejercer cualquiera de estos derechos, escribinos a privacidad@everythingeasy.app. Responderemos dentro de los 5 días hábiles.',
+      },
+      {
+        title: '6. Transferencias internacionales',
+        content: 'Algunos de nuestros proveedores de servicios (infraestructura en la nube, procesamiento de pagos, herramientas de comunicación) pueden estar ubicados fuera de Uruguay. En esos casos, nos aseguramos de que dichas transferencias se realicen hacia países u organizaciones con niveles adecuados de protección de datos, conforme a lo establecido por la normativa uruguaya y los criterios de la URCDP.',
+      },
+      {
+        title: '7. Seguridad de los datos',
+        content: 'Implementamos medidas técnicas y organizativas apropiadas para proteger tus datos personales contra acceso no autorizado, alteración, divulgación o destrucción. Esto incluye cifrado en tránsito y en reposo, control de acceso basado en roles y revisiones periódicas de seguridad.',
+      },
+      {
+        title: '8. Conservación de datos',
+        content: 'Conservamos tus datos personales mientras mantengas una cuenta activa en nuestra plataforma o mientras sea necesario para los fines descritos en esta política. Una vez que solicités la eliminación de tu cuenta, procederemos a la supresión de tus datos en un plazo máximo de 30 días hábiles, salvo que exista una obligación legal que requiera su conservación.',
+      },
+      {
+        title: '9. Autoridad de control',
+        content: 'La Unidad Reguladora y de Control de Datos Personales (URCDP) es el organismo estatal competente en materia de protección de datos personales en Uruguay. Si considerás que el tratamiento de tus datos vulnera la normativa vigente, podés presentar una reclamación ante la URCDP a través de su sitio web: urcdp.gub.uy.',
+      },
+      {
+        title: '10. Cambios en esta política',
+        content: 'Podemos actualizar esta Política de Privacidad periódicamente. Te notificaremos cualquier cambio significativo por correo electrónico o mediante un aviso destacado en la plataforma. Te recomendamos revisar esta política regularmente.',
+      },
+    ],
+  },
 };
