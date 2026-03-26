@@ -5,9 +5,10 @@ import easyLogoWhite from '../../assets/images/easy-logo-white.svg';
 
 interface FooterProps {
   onOpenPrivacy: () => void;
+  onOpenTerms: () => void;
 }
 
-const Footer: React.FC<FooterProps> = ({ onOpenPrivacy }) => {
+const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenTerms }) => {
   const { t } = useLanguage();
 
   const quickLinks = [
@@ -57,9 +58,12 @@ const Footer: React.FC<FooterProps> = ({ onOpenPrivacy }) => {
                 </button>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                <button
+                  onClick={onOpenTerms}
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   {t.footer.terms}
-                </a>
+                </button>
               </li>
             </ul>
           </div>

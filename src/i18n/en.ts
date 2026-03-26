@@ -114,6 +114,56 @@ export const en: TranslationStrings = {
     terms: 'Terms',
     copyright: '© 2025 Easy. All rights reserved.',
   },
+  terms: {
+    title: 'Terms of Service',
+    lastUpdated: 'Last updated: March 2026',
+    sections: [
+      {
+        title: '1. Acceptance of Terms',
+        content: 'By accessing or using the services of Everything Easy S.A.S. ("Easy", "we"), including Easy Compass and Easy Agenda, you agree to these Terms of Service in their entirety. If you do not agree with any of these conditions, you must not use our services.',
+      },
+      {
+        title: '2. Service Description',
+        content: 'Easy offers a SaaS platform that includes business management tools (Easy Compass) and a booking app for end customers (Easy Agenda). Services are delivered over the internet and may include scheduling, orders, payments, communication, inventory, and analytics features.',
+      },
+      {
+        title: '3. Registration and Account',
+        content: 'To access the services you must create an account by providing truthful and up-to-date information. You are responsible for maintaining the confidentiality of your credentials and all activities carried out from your account. You must notify us immediately of any unauthorized use.',
+      },
+      {
+        title: '4. Acceptable Use',
+        content: 'You agree to use the services only for lawful purposes. The following are prohibited: using the platform for illegal or fraudulent activities; attempting unauthorized access to Easy\'s or third-party systems; interfering with the normal operation of the service; reproducing, distributing, or modifying Easy\'s software or content without express authorization.',
+      },
+      {
+        title: '5. Plans and Payments',
+        content: 'Access to certain features may require subscribing to a paid plan. Current prices are published on the platform. Charges are billed in advance according to the contracted period (monthly or annual). Easy reserves the right to modify prices with a minimum of 30 days\' notice.',
+      },
+      {
+        title: '6. Intellectual Property',
+        content: 'All content, software, trademarks, logos, and materials available on the platform are the property of Easy or its licensors and are protected by applicable Uruguayan law and international treaties. Use of the services does not grant you any ownership rights over such elements.',
+      },
+      {
+        title: '7. User Data',
+        content: 'You own the data you upload to the platform. Easy will process such data in accordance with our Privacy Policy and Law No. 18.331. We will not sell or transfer your data to third parties for commercial purposes without your express consent.',
+      },
+      {
+        title: '8. Availability and Support',
+        content: 'We strive to keep the service continuously available, but we do not guarantee 100% uptime. We may perform maintenance tasks that involve temporary interruptions, with prior notice when possible. Technical support is provided through the channels published on the platform.',
+      },
+      {
+        title: '9. Limitation of Liability',
+        content: 'To the maximum extent permitted by Uruguayan law, Easy will not be liable for indirect, incidental, or consequential damages arising from the use or inability to use the services. Our total liability shall not exceed the amount paid by the user in the last 3 months.',
+      },
+      {
+        title: '10. Modifications and Termination',
+        content: 'We may modify these Terms at any time. We will notify you at least 15 days in advance of substantial changes. You may cancel your account at any time from the platform settings. Easy may suspend or cancel accounts that violate these terms.',
+      },
+      {
+        title: '11. Governing Law and Jurisdiction',
+        content: 'These Terms are governed by the laws of the Oriental Republic of Uruguay. Any dispute shall be submitted to the competent courts of Montevideo, Uruguay, unless otherwise required by law.',
+      },
+    ],
+  },
   privacyPolicy: {
     title: 'Privacy Policy',
     lastUpdated: 'Last updated: March 2026',

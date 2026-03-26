@@ -56,4 +56,12 @@ export interface TranslationStrings {
       content: string;
     }[];
   };
+  terms: {
+    title: string;
+    lastUpdated: string;
+    sections: {
+      title: string;
+      content: string;
+    }[];
+  };
 }

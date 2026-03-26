@@ -114,6 +114,56 @@ export const es: TranslationStrings = {
     terms: 'Términos',
     copyright: '© 2025 Easy. Todos los derechos reservados.',
   },
+  terms: {
+    title: 'Términos de Servicio',
+    lastUpdated: 'Última actualización: marzo de 2026',
+    sections: [
+      {
+        title: '1. Aceptación de los términos',
+        content: 'Al acceder o utilizar los servicios de Everything Easy S.A.S. ("Easy", "nosotros"), incluyendo Easy Compass y Easy Agenda, aceptás estos Términos de Servicio en su totalidad. Si no estás de acuerdo con alguna de estas condiciones, no debés utilizar nuestros servicios.',
+      },
+      {
+        title: '2. Descripción del servicio',
+        content: 'Easy ofrece una plataforma SaaS que incluye herramientas de gestión de negocios (Easy Compass) y una app de reservas para clientes finales (Easy Agenda). Los servicios se prestan a través de internet y pueden incluir funcionalidades de agenda, pedidos, pagos, comunicación, inventario y analítica.',
+      },
+      {
+        title: '3. Registro y cuenta',
+        content: 'Para acceder a los servicios debés crear una cuenta proporcionando información verídica y actualizada. Sos responsable de mantener la confidencialidad de tus credenciales y de todas las actividades realizadas desde tu cuenta. Debés notificarnos de inmediato ante cualquier uso no autorizado.',
+      },
+      {
+        title: '4. Uso aceptable',
+        content: 'Te comprometés a utilizar los servicios únicamente con fines lícitos. Está prohibido: usar la plataforma para actividades ilegales o fraudulentas; intentar acceder sin autorización a sistemas de Easy o de terceros; interferir con el funcionamiento normal del servicio; reproducir, distribuir o modificar el software o contenido de Easy sin autorización expresa.',
+      },
+      {
+        title: '5. Planes y pagos',
+        content: 'El acceso a determinadas funcionalidades puede requerir la contratación de un plan de pago. Los precios vigentes están publicados en la plataforma. Los cargos se facturan por adelantado según el período contratado (mensual o anual). Easy se reserva el derecho de modificar los precios con un preaviso mínimo de 30 días.',
+      },
+      {
+        title: '6. Propiedad intelectual',
+        content: 'Todo el contenido, software, marcas, logotipos y materiales disponibles en la plataforma son propiedad de Easy o de sus licenciantes y están protegidos por la legislación vigente en Uruguay y tratados internacionales. El uso de los servicios no te otorga ningún derecho de propiedad sobre dichos elementos.',
+      },
+      {
+        title: '7. Datos del usuario',
+        content: 'Sos titular de los datos que cargás en la plataforma. Easy procesará dichos datos conforme a nuestra Política de Privacidad y la Ley N° 18.331. No venderemos ni cederemos tus datos a terceros con fines comerciales sin tu consentimiento expreso.',
+      },
+      {
+        title: '8. Disponibilidad y soporte',
+        content: 'Nos esforzamos por mantener el servicio disponible de forma continua, pero no garantizamos una disponibilidad del 100%. Podemos realizar tareas de mantenimiento que impliquen interrupciones temporales, previo aviso cuando sea posible. El soporte técnico se presta a través de los canales publicados en la plataforma.',
+      },
+      {
+        title: '9. Limitación de responsabilidad',
+        content: 'En la máxima medida permitida por la ley uruguaya, Easy no será responsable por daños indirectos, incidentales o consecuentes derivados del uso o la imposibilidad de uso de los servicios. Nuestra responsabilidad total no excederá el monto abonado por el usuario en los últimos 3 meses.',
+      },
+      {
+        title: '10. Modificaciones y terminación',
+        content: 'Podemos modificar estos Términos en cualquier momento. Te notificaremos con al menos 15 días de anticipación ante cambios sustanciales. Podés cancelar tu cuenta en cualquier momento desde la configuración de la plataforma. Easy puede suspender o cancelar cuentas que violen estos términos.',
+      },
+      {
+        title: '11. Ley aplicable y jurisdicción',
+        content: 'Estos Términos se rigen por la legislación de la República Oriental del Uruguay. Cualquier controversia será sometida a la jurisdicción de los tribunales competentes de Montevideo, Uruguay, salvo disposición legal en contrario.',
+      },
+    ],
+  },
   privacyPolicy: {
     title: 'Política de Privacidad',
     lastUpdated: 'Última actualización: marzo de 2026',
