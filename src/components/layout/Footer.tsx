@@ -1,14 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Container from './Container';
 import { useLanguage } from '../../contexts/LanguageContext';
 import easyLogoWhite from '../../assets/images/easy-logo-white.svg';
 
-interface FooterProps {
-  onOpenPrivacy: () => void;
-  onOpenTerms: () => void;
-}
-
-const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenTerms }) => {
+const Footer: React.FC = () => {
   const { t } = useLanguage();
 
   const quickLinks = [
@@ -50,20 +46,14 @@ const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenTerms }) => {
             <h4 className="font-semibold mb-4">{t.footer.legal}</h4>
             <ul className="space-y-2">
               <li>
-                <button
-                  onClick={onOpenPrivacy}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                <Link to="/privacy" className="text-gray-400 hover:text-white transition-colors">
                   {t.footer.privacy}
-                </button>
+                </Link>
               </li>
               <li>
-                <button
-                  onClick={onOpenTerms}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                <Link to="/terms" className="text-gray-400 hover:text-white transition-colors">
                   {t.footer.terms}
-                </button>
+                </Link>
               </li>
             </ul>
           </div>
