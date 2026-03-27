@@ -12,8 +12,6 @@ const Header: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: '#compass', label: t.nav.compass },
-    { href: '#agenda', label: t.nav.agenda },
     { href: '#contact', label: t.nav.contact },
   ];
 
@@ -42,6 +40,12 @@ const Header: React.FC = () => {
               className="text-gray-text hover:text-black transition-colors font-medium"
             >
               {t.nav.privacy}
+            </Link>
+            <Link
+              to="/terms"
+              className="text-gray-text hover:text-black transition-colors font-medium"
+            >
+              {t.nav.terms}
             </Link>
           </div>
 
@@ -94,6 +98,13 @@ const Header: React.FC = () => {
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {t.nav.privacy}
+                </Link>
+                <Link
+                  to="/terms"
+                  className="text-gray-text hover:text-black transition-colors font-medium py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {t.nav.terms}
                 </Link>
                 <hr className="my-2" />
                 <button

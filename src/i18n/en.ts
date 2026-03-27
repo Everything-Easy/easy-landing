@@ -6,6 +6,7 @@ export const en: TranslationStrings = {
     agenda: 'Agenda',
     contact: 'Contact',
     privacy: 'Privacy',
+    terms: 'Terms',
   },
   hero: {
     title: 'The ecosystem that powers your business',

@@ -6,6 +6,7 @@ export const es: TranslationStrings = {
     agenda: 'Agenda',
     contact: 'Contacto',
     privacy: 'Privacidad',
+    terms: 'Términos',
   },
   hero: {
     title: 'El ecosistema que impulsa tu negocio',

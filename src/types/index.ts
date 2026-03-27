@@ -12,6 +12,7 @@ export interface TranslationStrings {
     agenda: string;
     contact: string;
     privacy: string;
+    terms: string;
   };
   hero: {
     title: string;
