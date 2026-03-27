@@ -11,6 +11,7 @@ export interface TranslationStrings {
     compass: string;
     agenda: string;
     contact: string;
+    privacy: string;
   };
   hero: {
     title: string;

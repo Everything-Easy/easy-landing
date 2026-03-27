@@ -5,6 +5,7 @@ export const en: TranslationStrings = {
     compass: 'Compass',
     agenda: 'Agenda',
     contact: 'Contact',
+    privacy: 'Privacy',
   },
   hero: {
     title: 'The ecosystem that powers your business',
@@ -205,7 +206,11 @@ export const en: TranslationStrings = {
         content: 'The Unidad Reguladora y de Control de Datos Personales (URCDP) is the competent state body for personal data protection in Uruguay. If you believe that the processing of your data violates applicable regulations, you may file a complaint with the URCDP through their website: urcdp.gub.uy.',
       },
       {
-        title: '10. Changes to This Policy',
+        title: '10. Use of Google User Data',
+        content: "Easy's use of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements. Easy does not transfer, sell, or use Google data for advertising, profiling, or any purpose other than providing the service to the user. Easy's employees, agents, and contractors only access Google data when strictly necessary to provide the service and only with the user's explicit consent.",
+      },
+      {
+        title: '11. Changes to This Policy',
         content: 'We may update this Privacy Policy periodically. We will notify you of any significant changes by email or through a prominent notice on the platform. We recommend reviewing this policy regularly.',
       },
     ],

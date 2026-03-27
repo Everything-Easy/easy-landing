@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { Menu, X, Globe } from 'lucide-react';
 import { Button } from '../ui';
 import Container from './Container';
@@ -36,6 +37,12 @@ const Header: React.FC = () => {
                 {link.label}
               </a>
             ))}
+            <Link
+              to="/privacy"
+              className="text-gray-text hover:text-black transition-colors font-medium"
+            >
+              {t.nav.privacy}
+            </Link>
           </div>
 
           <div className="hidden lg:flex items-center gap-4">
@@ -81,6 +88,13 @@ const Header: React.FC = () => {
                     {link.label}
                   </a>
                 ))}
+                <Link
+                  to="/privacy"
+                  className="text-gray-text hover:text-black transition-colors font-medium py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {t.nav.privacy}
+                </Link>
                 <hr className="my-2" />
                 <button
                   onClick={() => setLanguage(language === 'es' ? 'en' : 'es')}

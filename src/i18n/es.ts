@@ -5,6 +5,7 @@ export const es: TranslationStrings = {
     compass: 'Compass',
     agenda: 'Agenda',
     contact: 'Contacto',
+    privacy: 'Privacidad',
   },
   hero: {
     title: 'El ecosistema que impulsa tu negocio',
@@ -205,7 +206,11 @@ export const es: TranslationStrings = {
         content: 'La Unidad Reguladora y de Control de Datos Personales (URCDP) es el organismo estatal competente en materia de protección de datos personales en Uruguay. Si considerás que el tratamiento de tus datos vulnera la normativa vigente, podés presentar una reclamación ante la URCDP a través de su sitio web: urcdp.gub.uy.',
       },
       {
-        title: '10. Cambios en esta política',
+        title: '10. Uso de datos de Google',
+        content: 'El uso que Easy hace de la información recibida a través de las APIs de Google se ajusta a la Política de Datos de Usuario de los Servicios de la API de Google, incluidos los requisitos de uso limitado. Easy no transfiere, vende ni utiliza datos de Google para fines publicitarios, de perfilamiento, ni para ningún propósito distinto a la prestación del servicio al usuario. Los empleados, agentes y contratistas de Easy solo acceden a datos de Google cuando es estrictamente necesario para prestar el servicio y con el consentimiento explícito del usuario.',
+      },
+      {
+        title: '11. Cambios en esta política',
         content: 'Podemos actualizar esta Política de Privacidad periódicamente. Te notificaremos cualquier cambio significativo por correo electrónico o mediante un aviso destacado en la plataforma. Te recomendamos revisar esta política regularmente.',
       },
     ],
